@@ -1,0 +1,13 @@
+// Write a program to calculate simple interest.
+#include <stdio.h>
+
+int main() {
+   float p,i,t,SI;
+   //p is principle amount , i is intrest rate , t is time in years;
+   printf("Enter principle amount,intrest rate,t is time in years: ");
+   scanf("%f%f%f",&p,&i,&t);
+   SI = (p * i * t ) / 100;
+   printf("Simple intrest : %f",SI);
+
+    return 0;
+}
